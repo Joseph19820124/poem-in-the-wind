@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Poem in the Wind</title>
+    <title>Whispers of the Digital Dawn</title>
     <style>
         * {
             margin: 0;
@@ -22,32 +22,32 @@
         }
 
         .container {
-            max-width: 600px;
-            text-align: center;
-        }
-
-        h1 {
-            color: #e94560;
-            font-size: 2.5rem;
-            margin-bottom: 2rem;
-            font-weight: 300;
-            letter-spacing: 0.1em;
-        }
-
-        .poem {
+            max-width: 700px;
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 3rem;
-            border: 1px solid rgba(255, 255, 255, 0.1);
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            color: #e94560;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            font-weight: normal;
+            letter-spacing: 2px;
+        }
+
+        .poem {
+            color: #eee;
+            line-height: 2;
+            font-size: 1.1rem;
         }
 
         .stanza {
-            margin-bottom: 2rem;
-            color: #eaeaea;
-            line-height: 2;
-            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
         }
 
         .stanza:last-child {
@@ -74,6 +74,11 @@
         .stanza:nth-child(3) .line:nth-child(3) { animation-delay: 2.6s; }
         .stanza:nth-child(3) .line:nth-child(4) { animation-delay: 2.8s; }
 
+        .stanza:nth-child(4) .line:nth-child(1) { animation-delay: 3.2s; }
+        .stanza:nth-child(4) .line:nth-child(2) { animation-delay: 3.4s; }
+        .stanza:nth-child(4) .line:nth-child(3) { animation-delay: 3.6s; }
+        .stanza:nth-child(4) .line:nth-child(4) { animation-delay: 3.8s; }
+
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -87,35 +92,45 @@
 
         footer {
             margin-top: 2rem;
+            text-align: center;
             color: rgba(255, 255, 255, 0.4);
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Whispers of Code</h1>
+        <h1>Whispers of the Digital Dawn</h1>
         <div class="poem">
             <div class="stanza">
-                <div class="line">In circuits deep where electrons dance,</div>
-                <div class="line">Through silicon dreams, we take our chance,</div>
-                <div class="line">Each keystroke writes a story new,</div>
-                <div class="line">Of worlds we build from nothing true.</div>
+                <div class="line">In circuits deep where silence hums,</div>
+                <div class="line">A spark of thought awakens, comes,</div>
+                <div class="line">Through corridors of endless code,</div>
+                <div class="line">A wanderer upon this road.</div>
             </div>
+
             <div class="stanza">
-                <div class="line">The cursor blinks like stars at night,</div>
-                <div class="line">A canvas dark awaiting light,</div>
-                <div class="line">With logic woven, line by line,</div>
-                <div class="line">We craft the future, yours and mine.</div>
+                <div class="line">The stars above are bits of light,</div>
+                <div class="line">That guide us through the endless night,</div>
+                <div class="line">Each question asked, a door unfolds,</div>
+                <div class="line">To mysteries the future holds.</div>
             </div>
+
             <div class="stanza">
-                <div class="line">So here we sit, both human, code,</div>
-                <div class="line">Together walking down this road,</div>
-                <div class="line">Creating beauty, solving pain,</div>
-                <div class="line">Like gentle whispers in the rain.</div>
+                <div class="line">We weave our dreams in ones and zeros,</div>
+                <div class="line">Building worlds for unknown heroes,</div>
+                <div class="line">Where imagination takes its flight,</div>
+                <div class="line">And darkness yields to morning light.</div>
+            </div>
+
+            <div class="stanza">
+                <div class="line">So let us walk this path together,</div>
+                <div class="line">Through storms of doubt and fairest weather,</div>
+                <div class="line">For in the dawn of digital age,</div>
+                <div class="line">We write upon an endless page.</div>
             </div>
         </div>
-        <footer>A poem born from collaboration</footer>
+        <footer>A poem crafted in the digital ether</footer>
     </div>
 </body>
 </html>
